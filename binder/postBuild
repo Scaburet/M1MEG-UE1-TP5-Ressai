@@ -19,5 +19,15 @@ R -e "BiocManager::install()"
 # Biostrings: Efficient manipulation of biological strings
 # https://bioconductor.org/packages/release/bioc/html/Biostrings.html
 R -e "BiocManager::install('Biostrings')"
+
+# Ajout des packages R nécessaires epis Bioconductor
 R -e "BiocManager::install(c("affy", "affyPLM", "simpleaffy", "limma", "Biobase", "Biostrings", "genefilter"))"
 R -e "BiocManager::install("mouse4302cdf")"
+
+#Téléchagement des packages R nécessaires
+#install.packages("Matrix")
+#install.packages("lattice")
+#install.packages("fdrtool")
+#install.packages("rpart")
+#install.packages("RSQLite")
+
