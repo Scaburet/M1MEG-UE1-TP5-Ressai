@@ -13,7 +13,7 @@ dependencies:
   - nbresuse
   - nodejs
   - libgomp
-  - glib=2.56
+  - libopenblas
   - r-irkernel
   - r-base>=3.6
   - r-tidyverse 
@@ -23,5 +23,13 @@ dependencies:
   - r-rpart
   - r-RSQLite
   - r-ggplot2
+  - r-bioconductor-biostrings
+  - r-bioconductor-biobase
+  - r-bioconductor-limma
+  - r-bioconductor-affy
+  - r-bioconductor-affyplm
+  - r-bioconductor-simpleaffy
+  - r-bioconductor-genefilter
   
 #  - libopenblas=0.3.3
+#  - glib=2.56
