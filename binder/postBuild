@@ -6,12 +6,12 @@ jupyter labextension install \
 # Install R package
 # if not available as conda package
 R -e "install.packages('diagram', repos='http://cran.rstudio.com/')"
-R -e "install.packages('Matrix', repos='http://cran.rstudio.com/')"
-R -e "install.packages('lattice', repos='http://cran.rstudio.com/')"
-R -e "install.packages('fdrtool', repos='http://cran.rstudio.com/')"
-R -e "install.packages('rpart', repos='http://cran.rstudio.com/')"
-R -e "install.packages('RSQLite', repos='http://cran.rstudio.com/')"
-R -e "install.packages('ggplot2', repos='http://cran.rstudio.com/')"
+# R -e "install.packages('Matrix', repos='http://cran.rstudio.com/')"
+# R -e "install.packages('lattice', repos='http://cran.rstudio.com/')"
+# R -e "install.packages('fdrtool', repos='http://cran.rstudio.com/')"
+# R -e "install.packages('rpart', repos='http://cran.rstudio.com/')"
+# R -e "install.packages('RSQLite', repos='http://cran.rstudio.com/')"
+# R -e "install.packages('ggplot2', repos='http://cran.rstudio.com/')"
 
 # Ces packages se sont installés correctement lors de la création de l'environnement sur plasmabio
 
