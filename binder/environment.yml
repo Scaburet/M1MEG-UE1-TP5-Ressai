@@ -13,7 +13,7 @@ dependencies:
   - nbresuse
   - nodejs
   - libgomp
-  - libblas
+  - glib=2.56
   - r-irkernel
   - r-base>=3.6
   - r-tidyverse 
@@ -33,7 +33,9 @@ dependencies:
   # - r-bioconductor-simpleaffy
   # - r-bioconductor-genefilter
   
+# Leslignes suviantes ont les essais successifs pour faire tourner la normalisation gcrma qui donne une erreur ERROR; return code from pthread_create() is 22
+# à l'étape de normalisation  
 #  - libopenblas=0.3.3  ne marche pas
 #  - libopenblas ne marche pas
-#  - libblas  en cours
-#  - glib=2.56
+#  - libblas  ne marche pas
+#  - glib=2.56 en cours
