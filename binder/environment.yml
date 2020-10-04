@@ -13,8 +13,3 @@ dependencies:
   - r-irkernel
   - r-base>=3.6
   - r-tidyverse
-  - r-Matrix
-  - r-lattice
-  - r-fdrtool
-  - r-rpart
-  - r-RSQLite
