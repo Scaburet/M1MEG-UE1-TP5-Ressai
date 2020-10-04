@@ -13,7 +13,7 @@ dependencies:
   - nbresuse
   - nodejs
   - libgomp
-  - glib=2.56
+  - blas
   - r-irkernel
   - r-base>=3.6
   - r-tidyverse 
@@ -38,4 +38,5 @@ dependencies:
 #  - libopenblas=0.3.3  ne marche pas
 #  - libopenblas ne marche pas
 #  - libblas  ne marche pas
-#  - glib=2.56 en cours
+#  - glib=2.56 ne marche pas
+#  - blas  : en cours
