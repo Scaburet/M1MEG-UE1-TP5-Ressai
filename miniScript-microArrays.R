@@ -17,6 +17,7 @@ library(affyPLM)
 library(simpleaffy)
 library(genefilter)
 
+sessionInfo()
 
 # 1 - Récupération des données
 celpath = "/srv/data/meg-m1-ue1/DataTP5/"
@@ -90,6 +91,7 @@ normData[1:5,]
 # création des graphs
 dataBox3 = ggplot(normData, aes(sampleName,norm_logInt))
 dataBox3 + geom_boxplot() + ylim(2,16) + ggtitle("after normalization")
+
 
 
 
