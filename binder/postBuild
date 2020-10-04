@@ -6,6 +6,12 @@ jupyter labextension install \
 # Install R package
 # if not available as conda package
 R -e "install.packages('diagram', repos='http://cran.rstudio.com/')"
+R -e "install.packages('Matrix', repos='http://cran.rstudio.com/')"
+R -e "install.packages('lattice', repos='http://cran.rstudio.com/')"
+R -e "install.packages('fdrtool', repos='http://cran.rstudio.com/')"
+R -e "install.packages('rpart', repos='http://cran.rstudio.com/')"
+R -e "install.packages('RSQLite', repos='http://cran.rstudio.com/')"
+R -e "install.packages('ggplot2', repos='http://cran.rstudio.com/')"
 
 # Install R/Bioconductor package
 # if not available as conda package
@@ -20,14 +26,6 @@ R -e "BiocManager::install()"
 # https://bioconductor.org/packages/release/bioc/html/Biostrings.html
 R -e "BiocManager::install('Biostrings')"
 
-# Ajout des packages R nécessaires epis Bioconductor
-R -e "BiocManager::install(c("affy", "affyPLM", "simpleaffy", "limma", "Biobase", "Biostrings", "genefilter"))"
-R -e "BiocManager::install("mouse4302cdf")"
-
-#Téléchagement des packages R nécessaires
-#install.packages("Matrix")
-#install.packages("lattice")
-#install.packages("fdrtool")
-#install.packages("rpart")
-#install.packages("RSQLite")
-
+# Ajout des packages R nécessaires depuis Bioconductor
+R -e "BiocManager::install(c('affy', 'affyPLM', 'simpleaffy', 'limma', 'Biobase', 'genefilter'))"
+R -e "BiocManager::install('mouse4302cdf')"
