@@ -11,7 +11,7 @@ dependencies:
   - nbresuse
   - nodejs
   - libgomp
-  - libopenblas=0.3.3
+  - glib=2.56
   - r-irkernel
   - r-base>=3.6
   - r-tidyverse 
@@ -22,4 +22,5 @@ dependencies:
   - r-RSQLite
   - r-ggplot2
   
-  #après tidyverse, packages qui s'installent ok si on les mets depuis le postBuild
+#  - libopenblas=0.3.3
+
