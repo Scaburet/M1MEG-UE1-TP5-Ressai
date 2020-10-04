@@ -12,4 +12,12 @@ dependencies:
   - nodejs
   - r-irkernel
   - r-base>=3.6
-  - r-tidyverse
+  - r-tidyverse 
+  - r-Matrix
+  - r-lattice
+  - r-fdrtool
+  - r-rpart
+  - r-RSQLite
+  - r-ggplot2
+  
+  #après tidyverse, packages qui s'installent ok si on les mets depuis le postBuild
