@@ -13,6 +13,8 @@ R -e "install.packages('rpart', repos='http://cran.rstudio.com/')"
 R -e "install.packages('RSQLite', repos='http://cran.rstudio.com/')"
 R -e "install.packages('ggplot2', repos='http://cran.rstudio.com/')"
 
+# Ces packages se sont installés correctement lors de la création de l'environnement sur plasmabio
+
 # Install R/Bioconductor package
 # if not available as conda package
 
@@ -25,14 +27,21 @@ R -e "BiocManager::install()"
 # Biostrings: Efficient manipulation of biological strings
 # https://bioconductor.org/packages/release/bioc/html/Biostrings.html
 R -e "BiocManager::install('Biostrings')"
+# s'installe ok
 
 # Ajout des packages R nécessaires depuis Bioconductor
 R -e "BiocManager::install('Biobase')"
+# s'installe ok
 R -e "BiocManager::install('mouse4302cdf')"
+# s'installe ok
 R -e "BiocManager::install('limma')"
+# s'installe ok
+
+# les suivants ne s'installent pas
 R -e "BiocManager::install('affy')"
 R -e "BiocManager::install('affyPLM')"
 R -e "BiocManager::install('simpleaffy')"
 R -e "BiocManager::install('genefilter')"
 
+# Commande initiale qui fonctionne dans Rstudio pour installer les packages
 # R -e "BiocManager::install(c('affy', 'affyPLM', 'simpleaffy', 'limma', 'Biobase', 'genefilter'))"
