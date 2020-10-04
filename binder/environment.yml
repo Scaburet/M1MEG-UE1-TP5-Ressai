@@ -1,4 +1,6 @@
-name: plasmabio-template-r
+# from name: plasmabio-template-r
+
+name: M1MEG-UE1-TP5-R
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
@@ -23,4 +25,3 @@ dependencies:
   - r-ggplot2
   
 #  - libopenblas=0.3.3
-
