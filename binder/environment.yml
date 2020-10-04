@@ -23,14 +23,15 @@ dependencies:
   - r-rpart
   - r-RSQLite
   - r-ggplot2
-  - r-biocmanager
-  - r-bioconductor-biostrings
-  - r-bioconductor-biobase
-  - r-bioconductor-limma
-  - r-bioconductor-affy
-  - r-bioconductor-affyplm
-  - r-bioconductor-simpleaffy
-  - r-bioconductor-genefilter
+  
+  # - r-biocmanager
+  # - r-bioconductor-biostrings
+  # - r-bioconductor-biobase
+  # - r-bioconductor-limma
+  # - r-bioconductor-affy
+  # - r-bioconductor-affyplm
+  # - r-bioconductor-simpleaffy
+  # - r-bioconductor-genefilter
   
 #  - libopenblas=0.3.3
 #  - glib=2.56
