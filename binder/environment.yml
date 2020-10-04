@@ -23,6 +23,7 @@ dependencies:
   - r-rpart
   - r-RSQLite
   - r-ggplot2
+  - r-biocmanager
   - r-bioconductor-biostrings
   - r-bioconductor-biobase
   - r-bioconductor-limma
