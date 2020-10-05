@@ -6,7 +6,7 @@ jupyter labextension install \
 # Install R package
 # if not available as conda package
 R -e "install.packages('diagram', repos='http://cran.rstudio.com/')"
-
+R -e "install.packages('preprocessCore', --configure-args='--disable-threading')"
 
 # Install R/Bioconductor package
 # if not available as conda package
