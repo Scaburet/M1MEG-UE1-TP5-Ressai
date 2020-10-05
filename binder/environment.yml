@@ -12,6 +12,7 @@ dependencies:
   - jupyterlab=2
   - nbresuse
   - nodejs
+  - libgomp
   - r-irkernel
   - r-base>=3.6
   - r-tidyverse 
@@ -38,4 +39,4 @@ dependencies:
 #  - libblas  ne marche pas
 #  - glib=2.56 ne marche pas
 #  - blas  ne marche pas
-#  - libgomp passé ds le postBuild : essai en cours
+#  - libgomp passé ds le postBuild : comment ?
