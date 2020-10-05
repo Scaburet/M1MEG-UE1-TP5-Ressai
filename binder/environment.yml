@@ -12,8 +12,6 @@ dependencies:
   - jupyterlab=2
   - nbresuse
   - nodejs
-  - libgomp
-  - blas
   - r-irkernel
   - r-base>=3.6
   - r-tidyverse 
@@ -33,10 +31,11 @@ dependencies:
   # - r-bioconductor-simpleaffy
   # - r-bioconductor-genefilter
   
-# Leslignes suviantes ont les essais successifs pour faire tourner la normalisation gcrma qui donne une erreur ERROR; return code from pthread_create() is 22
+# Les lignes suviantes ont les essais successifs pour faire tourner la normalisation gcrma qui donne une erreur ERROR; return code from pthread_create() is 22
 # à l'étape de normalisation  
 #  - libopenblas=0.3.3  ne marche pas
 #  - libopenblas ne marche pas
 #  - libblas  ne marche pas
 #  - glib=2.56 ne marche pas
-#  - blas  : en cours
+#  - blas  ne marche pas
+#  - libgomp passé ds le postBuild : essai en cours
