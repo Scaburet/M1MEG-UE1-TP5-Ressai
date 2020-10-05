@@ -64,8 +64,12 @@ dataHist1 + geom_density()
 
 # 3 - Normalisation des données
 library("gcrma")
-data.gcrma = gcrma(data)
-# création d'une data farame avec seulement les valeurs d'expression normalisées
+# data.gcrma = gcrma(data)
+
+# Chargement de l'objet "data_gcrma.RData", pour le réintégrer dans la procédure d'analyse
+load("data_gcrma.RData")
+
+# création d'une data frame avec seulement les valeurs d'expression normalisées
 normexpr.gcrma = data.frame(exprs(data.gcrma))
 normexpr.gcrma[1:5,]
 
